@@ -1,0 +1,126 @@
+/* styling for main page */
+
+section {
+    margin: 3rem 4rem;
+}
+@media (max-width: 576px) {
+    section {
+        margin: 2rem 1rem;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(237, 234, 255);
+}
+/*styling for Navbar section */
+nav {
+    background: black;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+@media (max-width: 576px) {
+    nav {
+        padding: 1rem;
+    }
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background:red;
+    font-size: 2rem;
+}
+nav .logo a {
+    font-size: 2rem;
+    color: red;
+}
+nav .Addtofavorite {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background:black;
+    font-size: 1.3 rem;
+}
+/* styling for search section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    
+}
+.search-section input {
+    padding: 3px 0.5rem;
+    font-size: 1.2rem;
+}
+.search-section button {
+    padding: 3px 0.5rem;
+    font-size: 1.2rem;
+    width: 10%;
+    background-color: rgb(12, 70, 145);
+    color: white;
+    padding: 3px 0.9rem;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.search-section input[type="text"] {
+    width: 50%;
+   border-radius: 5px;
+   border-color: #000;
+   
+}
+
+@media (max-width: 586px) {
+    .search-section input[type="text"] {
+        width: 90%;
+    }
+}
+
+/* section for superhero characters */
+.caracters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*section for character card */
+.character-card {
+    width: 350px;
+    padding: 1rem;
+    border: 3px solid black;
+    margin-top: 2rem;
+}
+.character-card img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+}
+.card-body {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+.card-body a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.card-body input {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    padding: 0.1rem 0.6rem;
+    background-color: rgb(12, 70, 145);
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}

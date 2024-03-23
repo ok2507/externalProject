@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero_hunter_Projec </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Section for navbar -->
+    <nav>
+      <a href="#">Marval</a>
+      <a class="Addtofavorite" href="./myfavourite.html">My Favorite</a>
+    </nav>
+
+    <!-- section for search the super hero character -->
+    <section >
+      <div class="search-section">
+        <input type="text" placeholder="Please Enter Superhero" id="searchBox"/>
+        <button id="searchBtn">Search</button>
+      </div>
+    </section>
+
+    <!--Section to show search result as super hero list-->
+    <section>
+      <div id="searchResult">
+        
+      </div>
+    </section>
+
+    <!-- section to show shuperhero characters -->
+    <section>
+      <h2>Superhero details:</h2>
+      <div class="caracters" id="superhero-div">
+        <h2>Loading...</h2>
+      </div>
+    </section>
+
+    <!--sectio to bind javascript -->
+    <script src="./homePage.js"></script>
+    <script src="./myFavourite.js"></script>
+  </body>
+</html>
